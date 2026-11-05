@@ -1,0 +1,35 @@
+PORTFOLIO PROFESSIONNEL — YAO YAO JONAS
+
+FICHIERS
+- index.html : nouvelle version du portfolio, responsive et optimisée pour le référencement.
+- robots.txt : autorise l’exploration du site et indique le sitemap.
+- sitemap.xml : déclare l’URL canonique du portfolio aux moteurs de recherche.
+
+MISE EN LIGNE SUR GITHUB PAGES
+1. Téléversez/remplacez index.html à la racine du dépôt GitHub qui publie https://jcodex-1996.github.io/.
+2. Téléversez robots.txt et sitemap.xml au même niveau, à la racine du dépôt.
+3. Conservez votre photo sous le nom exact photo.jpg à la racine du dépôt. Le code actuel la référence pour le portrait et les aperçus de partage. Si le vrai fichier porte un autre nom ou se trouve dans un dossier, adaptez les trois références photo.jpg dans index.html.
+4. Vérifiez après publication :
+   - https://jcodex-1996.github.io/
+   - https://jcodex-1996.github.io/robots.txt
+   - https://jcodex-1996.github.io/sitemap.xml
+
+GOOGLE SEARCH CONSOLE
+1. Ouvrez https://search.google.com/search-console/ et ajoutez la propriété de préfixe d’URL https://jcodex-1996.github.io/.
+2. Choisissez la méthode de validation proposée par Google. Si Google fournit une balise meta HTML, ajoutez exactement cette balise dans le <head> de index.html, puis republiez.
+3. Dans Search Console > Sitemaps, soumettez : sitemap.xml
+4. Dans Inspection de l’URL, saisissez https://jcodex-1996.github.io/ puis demandez l’indexation.
+5. Contrôlez ensuite les rapports d’indexation et les éventuelles erreurs.
+
+POINTS À CONFIRMER AVANT PUBLICATION
+- Le CV PDF fourni indique que la Licence professionnelle en Génie Logiciel est « en cours ». Le portfolio a donc été aligné sur cette mention, au lieu de présenter le diplôme comme obtenu. Modifiez ce libellé uniquement si le diplôme a depuis été validé.
+- Le CV contient deux numéros de téléphone ; les deux ont été conservés. Vérifiez qu’ils sont toujours actifs et que les deux peuvent être publiés.
+- La photo photo.jpg doit bien exister à la racine du dépôt. Elle n’était pas jointe au fichier HTML fourni.
+- Les projets YéGo, TerraSuivi et COMPTA D’OR ont été conservés à partir de la version initiale du portfolio. Vérifiez que leurs descriptions et leur statut de réalisation correspondent exactement à ce que vous souhaitez présenter.
+- La mention « près de 7 ans » n’a pas été utilisée ; le site indique « 6+ ans depuis 2020 », formulation prudente et cohérente avec les dates professionnelles du CV.
+
+BONNES PRATIQUES
+- Ne publiez pas la date de naissance, la situation matrimoniale, le nombre d’enfants ou les coordonnées privées des personnes de référence.
+- N’ajoutez pas de mots-clés artificiels ou répétés. Le référencement repose surtout sur des contenus utiles, un titre clair, une description pertinente, des liens fiables et une bonne expérience mobile.
+- Après chaque mise à jour importante, actualisez <lastmod> dans sitemap.xml.
+- La demande d’indexation ne garantit pas une apparition immédiate dans Google ; le traitement peut prendre plusieurs jours ou davantage.
